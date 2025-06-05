@@ -6,11 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page errorPage="9_errorpage_error.jsp"%>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-  
-  </body>
+<head>
+    <title>error page</title>
+</head>
+<body>
+<h2>errorpage</h2>
+<p>의도치 않게 에러가 발생했습니다.</p>
+<%
+  String abc= (String)session.getAttribute("ABC");
+  abc.charAt(3);
+%>
+</body>
 </html>

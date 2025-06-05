@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Title</title>
   </head>
   <body>
-  $END$
+  <p>로그인 실패</p>
+  <p>다시 로그인하세요</p>
   </body>
 </html>

@@ -7,10 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>forward</title>
+</head>
+<body>
+<form method="post" action="10_forward_ok.jsp">
+  <p>아이디: <input type="text" name="userid"></p>
+  <p><button type="submit">눌러</button></p>
+</form>
+</body>
 </html>
